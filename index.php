@@ -82,15 +82,6 @@
             </tr>
 
             <tr>
-               <td>Gender:</td>
-               <td>
-                  <input type = "radio" name = "gender" value = "female">Female
-                  <input type = "radio" name = "gender" value = "male">Male
-                  <span class = "error">* <?php echo $genderErr;?></span>
-               </td>
-            </tr>
-
-            <tr>
                <td>Select:</td>
                <td>
                   <select name = "subject[]" size = "4" multiple>
