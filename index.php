@@ -77,11 +77,6 @@
             </tr>
 
             <tr>
-               <td>Classes:</td>
-               <td> <textarea name = "class" rows = "5" cols = "40"></textarea></td>
-            </tr>
-
-            <tr>
                <td>Select:</td>
                <td>
                   <select name = "subject[]" size = "4" multiple>
