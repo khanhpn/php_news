@@ -77,13 +77,6 @@
             </tr>
 
             <tr>
-               <td>E-mail: </td>
-               <td><input type = "text" name = "email">
-                  <span class = "error">* <?php echo $emailErr;?></span>
-               </td>
-            </tr>
-
-            <tr>
                <td>Time:</td>
                <td> <input type = "text" name = "course">
                   <span class = "error"><?php echo $websiteErr;?></span>
