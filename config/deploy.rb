@@ -5,7 +5,8 @@ set :application, "news"
 set :repo_url, "git@github.com:khanhpn/php_news.git"
 
 # Default branch is :master
-ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
+# ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
+ask :branch, :dev
 
 # Default deploy_to directory is /var/www/my_app_name
 set :deploy_to, "/var/www/html/news"

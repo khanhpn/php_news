@@ -77,13 +77,6 @@
             </tr>
 
             <tr>
-               <td>Time:</td>
-               <td> <input type = "text" name = "course">
-                  <span class = "error"><?php echo $websiteErr;?></span>
-               </td>
-            </tr>
-
-            <tr>
                <td>Classes:</td>
                <td> <textarea name = "class" rows = "5" cols = "40"></textarea></td>
             </tr>
