@@ -21,7 +21,7 @@ set :deploy_to, "/var/www/html/news"
 # set :pty, true
 
 # Default value for :linked_files is []
-# append :linked_files, "database/config.yml"
+append :linked_files, "database/config.yml"
 
 # Default value for linked_dirs is []
 # append :linked_dirs, "log", "tmp/pids", "tmp/cache", "tmp/sockets", "public/system"
