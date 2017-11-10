@@ -70,13 +70,6 @@
       <form method = "POST" action = "<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
          <table>
             <tr>
-               <td>Name:</td>
-               <td><input type = "text" name = "name">
-                  <span class = "error">* <?php echo $nameErr;?></span>
-               </td>
-            </tr>
-
-            <tr>
                <td>Select:</td>
                <td>
                   <select name = "subject[]" size = "4" multiple>

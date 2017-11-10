@@ -17,10 +17,13 @@ set :branch, ENV['BRANCH'] if ENV['BRANCH']
 # property set. Specify the username and a domain or IP for the server.
 # Don't use `:all`, it's a meta role.
 
-role :app, %w{demo@139.59.254.246}, my_property: :my_value
+role :app, %w{demo@139.59.254.246 demo1@188.166.230.29}, my_property: :my_value
 # role :web, %w{user1@primary.com user2@additional.com}, other_property: :other_value
-# role :db,  %w{deploy@example.com}
+# role :db,  %w{demo1@128.199.103.144}
 
+server "139.59.254.246", user: "demo", roles: %w{app}, other_property: :other_value
+server "188.166.230.29", user: "demo1", roles: %w{app}, other_property: :other_value
+# server "128.199.103.144", user: "demo1", roles: %w{db}, other_property: :other_value
 
 
 # Configuration
